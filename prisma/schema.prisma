@@ -36,6 +36,7 @@ model Person {
   name   String
   avatar String?
   fieldPersonTest   String?          @default("")
+  fieldPersonTestA   String?          @default("")
   tasks  TaskAssignment[]
 }
 
