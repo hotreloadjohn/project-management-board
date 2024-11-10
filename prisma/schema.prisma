@@ -26,6 +26,7 @@ model Task {
 model Status {
   id    Int    @id @default(autoincrement())
   text  String @unique
+  fieldStatusTest   String?          @default("")
   tasks Task[]
 }
 
