@@ -19,6 +19,9 @@ model Task {
   fieldA   String?          @default("")
   fieldB   String?          @default("")
   status   Status           @relation(fields: [statusId], references: [id])
+  fieldA   String?          @default("")
+  fieldB   String?          @default("")
+  fieldC   String?          @default("")
   persons  TaskAssignment[]
 }
 
