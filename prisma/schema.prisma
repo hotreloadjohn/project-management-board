@@ -27,7 +27,8 @@ model Status {
   id    Int    @id @default(autoincrement())
   text  String @unique
   fieldStatusTest   String?          @default("")
-  fieldStatusTestLocal   String?          @default("")
+  fieldStatusTestR1   String?          @default("")
+  fieldStatusTestR2   String?          @default("")
   tasks Task[]
 }
 
